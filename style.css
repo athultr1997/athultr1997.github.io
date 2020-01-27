@@ -1,0 +1,62 @@
+body {
+	background-color: #ffffff;	
+}
+
+.navigation_bar {
+	overflow: hidden;
+	background-color: #1d3557;
+	font-family: Arial, Times, serif;
+	position: absolute;
+	top: 5%;
+	left: 20%;
+	right: 20%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navigation_bar a {	
+	color: #ffffff;
+	text-align: center;
+	padding: 1% 1% 1% 1%;
+	text-decoration: None;
+	font-size: 30px;
+}
+
+.navigation_bar a:hover {
+	background-color: #1d3557;
+	color: #ffffff;
+}
+
+.contact {	
+	font-size: 30px;
+	text-decoration: None;
+	padding: 10px 10px 10px 10px;	
+	font-family: Arial, Times, serif;
+	margin: 0;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -100%);
+  	text-align: center;
+}
+
+.contact > .links {
+	position: relative;
+	transform: translate(0%,100%);
+}
+
+.research {
+	position: absolute;
+	top: 15%;
+	left: 20%;
+	right: 20%;
+	font-size: 25px;
+}
+
+.home{
+	position: absolute;
+	top: 15%;
+	left: 20%;
+	right: 20%;
+	font-size: 25px;
+}
